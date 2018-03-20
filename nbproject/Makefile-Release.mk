@@ -57,11 +57,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/jakobfixplz.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gitexercise1.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/jakobfixplz.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gitexercise1.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/jakobfixplz ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gitexercise1 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/adder.o: adder.c
 	${MKDIR} -p ${OBJECTDIR}
