@@ -5,5 +5,5 @@
  */
 
 int adder(int a, int b) {
-    return a + a;
+    return a + b;
 }
